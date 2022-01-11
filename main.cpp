@@ -100,7 +100,7 @@ void Do_All_Calculations(char secret = univ_calc_setter)
     universal_object.y_axis_array[2] = std::stoi(universal_object.one_for_all[4]); // converting y2 point to int
     universal_object.clear_screen();
     std::cout << "\n\n\tPress any key to confirm the coordinates of the points: ";
-right_here:
+    
     std::cout << "\n\n\tPoint A (" << universal_object.x_axis_array[1] << " , " << universal_object.y_axis_array[1] << " )";
     std::cout << "\n\n\tPoint B (" << universal_object.x_axis_array[2] << " , " << universal_object.y_axis_array[2] << " )";
     if (secret == 'T')

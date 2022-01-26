@@ -1,5 +1,4 @@
 #include <iostream>
-void conversion_to_int();
 void inline helper();
 void inline helper2();
 class suppliments
